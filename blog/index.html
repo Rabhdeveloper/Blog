@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Welcome to this page </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to My Blog</h2>
+            <p>Sharing my thoughts, ideas, and insights.</p>
+            <a href="#posts" class="btn">Read Posts</a>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section id="posts" class="posts">
+        <div class="container">
+            <article class="post">
+                <h3>First Blog Post</h3>
+                <p class="date">August 05, 2024</p>
+                <p class="content">
+                    Saurabh is a dedicated Bachelor of Computer Applications (BCA) student at Jagannath University, with a strong
+                    passion for web development. He is focused on mastering the art of creating responsive websites using HTML, CSS, and
+                    JavaScript. As a tech enthusiast, Saurabh is constantly exploring new frameworks and technologies to enhance his
+                    skills. Currently, he's gaining valuable experience through an internship at Nezuware, where he's applying his
+                    knowledge in real-world projects. His goal is to become a full-stack developer, combining his technical expertise
+                    with a creative approach to build innovative web solutions.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h3>Second Blog Post</h3>
+                <p class="date">August 20, 2024</p>
+                <p class="content">
+                    Saurabh is an enthusiastic BCA student with a passion for web development. He has achieved notable recognition by earning multiple certificates in various courses, showcasing his commitment to expanding his knowledge and skills. Currently interning at Nezuware, Saurabh is applying his learning to practical projects, enhancing his expertise in HTML, CSS, and JavaScript. His dedication to continuous improvement and his drive to excel in the field of web development are evident through his accomplishments and hands-on experience. Saurabh is well on his way to becoming a skilled full-stack developer, ready to tackle new challenges and opportunities in the tech industry.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <!-- Add more posts as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Saurabh is a motivated BCA student with a keen interest in web development and a track record of earning multiple certificates in various courses. Currently interning at Nezuware, he applies his skills in HTML, CSS, and JavaScript to real-world projects, aiming to become a proficient full-stack developer.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+            <ul class="social">
+
+                <li><a href="#"><img src="twit.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="insta.jpeg" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
